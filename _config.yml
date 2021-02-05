@@ -6,12 +6,12 @@ ios_app_id                                : 1537751066                          
 
 appstore_link                             : https://apps.apple.com/app/id1537751066                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://max.krauss.io                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : fastbackward                                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 : Free                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : Free                                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Relive your forgotten photos from your camera roll on a daily basis.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
@@ -19,7 +19,7 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself
-your_name                                 : Maximilian Krauss                               
+your_name                                 : Maximilian Krauß                               
 your_link                                 : https://max.krauss.io                  
 your_city                                 : Berlin                                
 email_address                             : max@krauss.io
@@ -34,47 +34,29 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+  - title                                 : Relive forgotten memories
+    description                           : fastbackward shows you all photos you took on this day throughout the past years. For more than one year of memories you'll need the pro version of fastbackward.
+    fontawesome_icon_name                 : images
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : iCloud Support
+    description                           : Works fine with photos stored inside Apple iCloud.
+    fontawesome_icon_name                 : cloud
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
-
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
-
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
-
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
-
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
+  - title                                 : Notifications
+    description                           : Open fastbackward only when you need to. With the built-in notification feature you can get notified on each day you have memories.
     fontawesome_icon_name                 : info-circle
 
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+  - title                                 : Extended metadata (Pro)
+    description                           : View extended metadata for each photo like location, camera model/make and much more.
+    fontawesome_icon_name                 : file-image
 
-
+#  - title                                 : Easy to Tweak
+#    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
+#    fontawesome_icon_name                 : adjust
+  
+  - title                                 : Delete memories
+    description                           : Found a screenshot you took accidental five years ago? Those things you can delete with one tap.
+    fontawesome_icon_name                 : trash-alt
 
 # Theme Settings
 topbar_color                              : "#000000"
@@ -82,8 +64,8 @@ topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
 cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_overlay_color                       : "#424242"
+cover_overlay_transparency                : 0.4
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
