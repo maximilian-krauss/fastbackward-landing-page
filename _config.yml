@@ -12,7 +12,10 @@ presskit_download_link                    : https://max.krauss.io               
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : fastbackward                                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Free                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Relive forgotten memories
+app_description                           : "Relive your forgotten photos from your camera roll on a daily basis.
+Usually after snapping some photos, they will end up inside your Photo Library and slowly become forgotten.
+fastbackward is here to help. It shows all photos you took on this day during the past years. You can easily see where you took those memories and with which device by showing all kinds of EXIF meta data.
+It also allows you to exclude screenshots and other unnecessary media from your daily memories."
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
