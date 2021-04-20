@@ -374,6 +374,11 @@ nav > ul li a:active {
 	height: 75px;
 }
 
+.break {
+	flex-basis: 100%;
+	height: 0;
+}  
+
 .qrcode {
 	height: 150px;
 }
